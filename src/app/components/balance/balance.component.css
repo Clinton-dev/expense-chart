@@ -1,0 +1,31 @@
+.balance {
+    background-color: hsl(33, 100%, 98%);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+
+.grey-text {
+    color: hsl(28, 10%, 53%);
+}
+
+.dark-brown {
+    color: hsl(25, 47%, 15%);
+}
+
+.graph {
+    border-bottom-color: hsl(28, 10%, 53%);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 1rem;
+}
+
+.balance-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-month {
+    text-align: right;
+}
