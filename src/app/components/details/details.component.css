@@ -1,0 +1,8 @@
+.details {
+    background-color: hsl(10, 79%, 65%);
+    color: hsl(27, 66%, 92%);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
