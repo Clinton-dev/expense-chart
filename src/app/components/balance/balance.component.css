@@ -1,3 +1,8 @@
+:root {
+    --bar-width: 60px;
+    --max-height: 160px;
+}
+
 .balance {
     background-color: hsl(33, 100%, 98%);
     border-radius: 1rem;
@@ -19,6 +24,39 @@
     border-bottom-style: solid;
     border-bottom-width: 1px;
     margin-bottom: 1rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: var(--max-height);
+}
+
+.bars {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.bar {
+    background-color: hsl(10, 79%, 65%);
+    min-height: 5px;
+    margin: 0 .5rem;
+    border-top-left-radius: .7rem;
+    border-top-right-radius: .7rem;
+}
+
+.legends {
+    display: flex;
+    color: hsl(28, 10%, 53%);
+}
+
+.legends span {
+    width: var(--bar-width);
+    margin: 0 .5rem;
 }
 
 .balance-details {
