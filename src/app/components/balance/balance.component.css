@@ -19,44 +19,14 @@
     color: hsl(25, 47%, 15%);
 }
 
-.graph {
-    border-bottom-color: hsl(28, 10%, 53%);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    margin-bottom: 1rem;
-}
 
-.content {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: var(--max-height);
-}
+/* background-color: hsl(10, 79%, 65%); */
 
-.bars {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    height: 100%;
-}
-
-.bar {
-    background-color: hsl(10, 79%, 65%);
-    min-height: 5px;
-    margin: 0 .5rem;
-    border-top-left-radius: .7rem;
-    border-top-right-radius: .7rem;
-}
-
-.legends {
-    display: flex;
-    color: hsl(28, 10%, 53%);
-}
-
-.legends span {
-    width: var(--bar-width);
-    margin: 0 .5rem;
+.charts {
+    border-top-color: hsl(28, 10%, 53%);
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-top: 1rem;
 }
 
 .balance-details {
