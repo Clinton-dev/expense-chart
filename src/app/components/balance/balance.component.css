@@ -1,8 +1,3 @@
-:root {
-    --bar-width: 60px;
-    --max-height: 160px;
-}
-
 .balance {
     background-color: hsl(33, 100%, 98%);
     border-radius: 1rem;

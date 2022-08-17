@@ -1,5 +1,46 @@
 .container {
     width: 90%;
     margin: 5rem auto;
-    /* border: 1px solid black; */
+}
+
+.attribution {
+    padding: 1em;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background-color: hsl(33, 100%, 98%);
+    color: hsl(10, 79%, 65%);
+}
+
+.attribution a {
+    color: hsl(25, 47%, 15%);
+}
+
+@media only screen and (max-width: 376px) {
+    .container {
+        width: 90%;
+        margin: 5rem auto;
+        /* border: 1px solid black; */
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 40%;
+        margin: 5rem auto;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 30%;
+        margin: 5rem auto;
+    }
 }
